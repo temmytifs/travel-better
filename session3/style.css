@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    background-color: #1d2828;
+}
+
+.container{
+    width: 960px;
+    margin: auto;
+    background-color: #eee;
+    min-height: 600px;
+}
+.container header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #203951;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+}
+.container header .logo{
+    width: 25%;
+    height: 60px;
+    display: flex;
+}
+.container header .logo p{
+    font-size: medium;
+    font-family: inherit;
+    margin: 0 auto;
+    padding: 20;
+    width: 40%;
+    height: 100px;
+    padding-top: 10px;
+    color: #eee;
+}
+
+.container header nav{
+    width: 60%;
+    height: 60px;
+}
+.container header nav a{
+  margin: 10px 10px;
+  padding: 10px;
+  display: inline-block;
+  text-decoration: #203951;
+  background: #e9e9ee;
+  justify-content: center;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container .banner{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: #eee;
+    background-image: url(images/banner2.jpg);
+    
+}
+
+.container .banner .hero{
+    width: 45%;
+    height: 175px;
+    background-color:#e9eef3;
+    font-size: 300%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.container .main{
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+.container .main p{
+    line-height: 20pt;
+    text-decoration: none;
+    text-align: center;
+}
+
+.container .main .main-content{
+    width: 70%;
+    min-height: 100%;
+    background-color: white;
+}
+
+.container .main aside{
+    width: 30%;
+    min-height: 100%;
+    background-color: #322d2d;
+    background-image: url(images/island.jpg);
+}
+
+.container .footer-widget{
+    display: flex;
+    width: 100%;
+    min-height: 450px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #eee;
+}
+
+.container .footer-widget .widget{
+    width: 30%;
+    background-color: none;
+    height: 200px;
+    border-color: #1d2828;
+}
+
+.container .footer-widget .widget p{
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 auto;
+    font-size: large;
+    font-style: italic;
+}
+}
+
