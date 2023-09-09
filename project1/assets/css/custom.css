@@ -1,0 +1,134 @@
+*{
+    font-family: nunito;
+}
+
+.navbar{
+    background-color: #fff !important;
+}
+
+.header-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.75);
+    z-index: 999999;
+}
+
+.navbar-brand{
+    font-weight:700;
+    color: #a0041e;
+}
+
+.nav-link{
+    font-weight: 700;
+}
+
+.cta{
+    border: 2px solid #a0041e;
+    border-radius: 4px;
+    text-transform: uppercase;
+    padding: 10px 15px !important;
+}
+
+.cta:hover{
+    background-color: #a0041e;
+    color: #eee;
+}
+
+.tan{
+    border: 2px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    padding: 10px 15px !important;
+    background-color: #fffdfd;
+     color: #020101;
+}
+.tan:hover{
+    background-color: #a0041e;
+    color: #eee;
+}
+.cat{
+    border: 2px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    padding: 10px 15px !important;
+    background-color: #a0041e;
+     color: #eee;
+}
+.cat:hover{
+        background-color: #f1e6e8;
+        color: black;
+}
+.banner{
+    min-height: 500px;
+    margin-top: 70px;
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay{
+    background-color: rgba(255, 255, 255, 0.95);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 45;
+}
+
+.banner-content{
+    position: relative;
+    z-index: 60;
+}
+
+.cover{
+    height: 500x;
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay2{
+    background-color: rgba(3, 3, 3, 0.50);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 45;
+}
+
+.covercontent{
+    color: #eee;
+    z-index: 100;
+    position: relative;
+    text-align: left;
+    padding: 5%;
+}
+
+.active{
+    color: #a0041e !important;
+}
+
+.textpink{
+    color: #d1345b;
+}
+
+.banner-padding{
+    padding: 12% 5%; 
+}
+
+.box{
+    background-color: #eee7e7;
+}
+.about img{
+    width: 80%
+}
+
+.hire{
+    text-align: center;
+}
