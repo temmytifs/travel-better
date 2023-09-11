@@ -53,17 +53,61 @@
     border-radius: 4px;
     text-transform: uppercase;
     padding: 10px 15px !important;
-    background-color: #a0041e;
+    background-color: #d1345b;
      color: #eee;
 }
 .cat:hover{
         background-color: #f1e6e8;
         color: black;
 }
+
+.bus{
+    border: 2px;
+    border-radius: 10px;
+    padding: 10px 15px !important;
+    background-color: #dbb7c0;
+    color: #d1345b;
+}
+.bus:hover{
+        background-color: #0e0204;
+        color: #d1345b;
+}
+
+.des{
+    border: 2px;
+    border-radius: 10px;
+    padding: 10px 15px !important;
+    background-color: #b9e6ab;
+     color: #086b15;
+}
+.des:hover{
+    background-color: #0e0204;
+    color: #086b15;
+}
+.ind{
+    border: 2px;
+    border-radius: 10px;
+    padding: 10px 15px !important;
+    background-color: #89bbe4;
+     color: blue;
+}
+.ind:hover{
+    background-color: #0e0204;
+    color: blue;
+}
 .banner{
     min-height: 500px;
     margin-top: 70px;
     background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner2{
+    min-height: 500px;
+    margin-top: 70px;
+    background-image: url(../images/b2.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -85,19 +129,27 @@
 }
 
 .cover{
-    height: 500x;
+    height: 400px;
     background-image: url(../images/bg.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
 }
-
-.overlay2{
-    background-color: rgba(3, 3, 3, 0.50);
+.overlay3{
+    background-color: rgba(2, 1, 1, 0.6);
     width: 100%;
     height: 100%;
     position: absolute;
-    top:0;
+    top: 0;
+    left: 0;
+    z-index: 45;
+}
+.overlay2{
+    background-color: rgba(253, 251, 251, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
     left: 0;
     z-index: 45;
 }
@@ -110,12 +162,25 @@
     padding: 5%;
 }
 
+.overlay2text{
+    z-index: 70;
+    position: relative;
+}
+
 .active{
     color: #a0041e !important;
 }
 
 .textpink{
     color: #d1345b;
+}
+.about{
+    min-height: 650px;
+}
+
+.about1 p{
+    font-size: 20px;
+    padding-top: 20px;
 }
 
 .banner-padding{
@@ -125,10 +190,58 @@
 .box{
     background-color: #eee7e7;
 }
-.about img{
-    width: 80%
+.hirebg img{
+    width: 100%;
+}
+.hirebtn{
+    margin-top: 20px;
+    padding-left: 20px;
 }
 
-.hire{
+.qa .class{
+    height: 500px;
+}
+
+.boldtext{
+    font-weight: bold;
+}
+
+.textcenter{
     text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.footer{
+    justify-items: flex-start;
+}
+.circle img{
+    border: #d1345b solid;
+    height: 50px;
+    width: 100px;
+}
+
+hr{
+    position: relative;
+    top: 5px;
+    border: none;
+    height: 5px;
+    background: black;
+    margin-bottom: 50px;
+}
+.pinkhr{
+    background: #971938;
+    border: #a0041e solid;
+}
+.testimony{
+    min-height: 800%;
+}
+
+.align-left{
+    text-align: left;
+}
+.go{
+    border: solid black;
+    justify-content: flex-end;
+    justify-items: flex-end;
 }
